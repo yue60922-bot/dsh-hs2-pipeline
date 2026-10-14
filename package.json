@@ -1,0 +1,21 @@
+{
+  "name": "dsh-hs2-pipeline",
+  "version": "0.1.0",
+  "description": "HS2 三步流程图：拆分、贴合、做成 mod。入口与技能中心并列。不读取 DSH 技能目录。每步确认后才进入下一步；3D 委派 Codex。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/en.json": "./.dsh-locales/root/en.json",
+    "./locale/zh.json": "./.dsh-locales/root/zh.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
