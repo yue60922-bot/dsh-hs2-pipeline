@@ -40,7 +40,7 @@
 
 用 CC Switch 配 Codex。最低配置：中转站 `nikoapi.xyz`，倍率 `0.21`，模型 `gpt-6-astra`。
 
-DSH 里打开和当前 DSH 同一版本的官方 Codex 子代理插件 `dsh-subagent-codex`。旧的本地副本不要开。没开这个插件，上面那些部位派不出去。
+最新版web端的DSH里打开官方 Codex 子代理插件 `dsh-subagent-codex`。桌面端和老版本可能没有，让ds自行安装，点名要官方的codex子代理插件。
 
 ## 页面上怎么走
 
